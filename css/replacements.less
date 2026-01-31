@@ -47,13 +47,13 @@
 
 /* these are used for links */
 .link(@arg) when (iscolor(@arg)) {
-  color: @arg !important;
+  color: @arg; /* !important;*/
 }
 .existing(@arg) when (iscolor(@arg)) {
-  color: @arg !important;
+  color: @arg; /* !important;*/
 }
 .missing(@arg) when (iscolor(@arg)) {
-  color: @arg !important;
+  color: @arg; /* !important;*/
 }
 
 /**
@@ -84,6 +84,8 @@ fieldset {
   .textAlt(@ini_text_alt);
 }
 
+*/
+
 a:link, a:visited {
   .link(@ini_link);
 }
@@ -96,4 +98,3 @@ a:link, a:visited {
   .missing(@ini_missing);
 }
 
-*/

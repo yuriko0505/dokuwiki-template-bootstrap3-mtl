@@ -103,7 +103,7 @@ $tpl_basedir        = tpl_basedir();
 $tpl_incdir         = tpl_incdir();
 $themes_filename    = DOKU_CONF . 'bootstrap3.themes.conf';
 $stylesheets        = array();
-$bootswatch_themes  = array('cerulean', 'cosmo', 'cyborg', 'darkly', 'flatly', 'journal', 'lumen', 'paper', 'readable', 'sandstone', 'simplex', 'solar', 'slate', 'spacelab', 'superhero', 'united', 'yeti');
+$bootswatch_themes  = array('cerulean', 'cosmo', 'cyborg', 'darkly', 'flatly', 'journal', 'lumen', 'mtl-wiki', 'paper', 'readable', 'sandstone', 'simplex', 'solar', 'slate', 'spacelab', 'superhero', 'united', 'yeti');
 
 # Check Theme Switcher
 if (tpl_getConf('showThemeSwitcher')) {
